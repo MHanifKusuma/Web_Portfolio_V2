@@ -21,6 +21,7 @@ import ClientsSection from "../containers/Portfolio/Clients";
 import ContactSection from "../containers/Portfolio/Contact";
 import Footer from "../containers/Portfolio/Footer";
 import SEO from "../components/seo";
+import Experience from "../components/index_components/Experience";
 
 export default () => {
   return (
@@ -37,6 +38,7 @@ export default () => {
             </DrawerProvider>
           </Sticky>
           <BannerSection />
+          <Experience />
           <PortfolioShowcase />
           <AwardsSection />
           <ProcessSection />
